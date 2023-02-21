@@ -4,3 +4,6 @@
 * django-admin startproject Universidad // project creation
 * mkdir Aplicaciones // a folder is created for the applications
 * django-admin startapp Academico // an application of the project is created
+* Create model Curso
+* Register model Curso in the admin.py archive
+* The course model is migrated: python manage.py migrate
