@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1> ESTAMOS EN LA GESTION DE LOS CURSOS </h1>
+    <ul>
+        {% for c in cursos %}
+        <li>{{c.nombre}}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
