@@ -6,4 +6,6 @@
 * django-admin startapp Academico // an application of the project is created
 * Create model Curso
 * Register model Curso in the admin.py archive
+* The migration of the model created with the command "python manage.py makemigrations" is applied
 * The course model is migrated: python manage.py migrate
+
