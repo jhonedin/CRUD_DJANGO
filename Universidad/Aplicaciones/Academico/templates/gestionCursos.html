@@ -31,15 +31,17 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>#</th>
                         <th>Codigo</th>
                         <th>Nombre</th>
                         <th>Creditos</th>
-                        <th colspan="">Opciones</th>
+                        <th colspan="2">Opciones</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for c in cursos %}
                     <tr>
+                        <td>{{forloop.counter}}</td>
                         <td>{{c.codigo}}</td>
                         <td>{{c.nombre}}</td>
                         <td>{{c.creditos}}</td>
